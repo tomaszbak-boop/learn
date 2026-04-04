@@ -47,14 +47,21 @@ UIGen is an AI-powered React component generator. Users describe components in a
 ### State Management
 
 - No global state library — React Context only
-- `ChatContext`: wraps `useChat` from `@ai-sdk/react`, drives streaming messages
-- `FileSystemContext`: owns the `VirtualFileSystem` instance; exposes handlers for tool call results that the chat API stream delivers to the client
+- `ChatContext`: wraps `useChat` from `@ai-sdk/react`, drives streaming messages; passes serialized FS state in every request body
+- `FileSystemContext`: owns the `VirtualFileSystem` instance; exposes `handleToolCall` which the AI SDK calls client-side as tool results stream in; increments `refreshTrigger` to signal `PreviewFrame` to re-render
+- Tool execution is **dual**: tools run server-side in `route.ts` (mutating a throwaway VFS for DB persistence) and their results are also streamed to the client where `handleToolCall` mutates the live in-browser VFS
+
+### Anonymous User Flow
+
+- Anonymous work is tracked in `sessionStorage` via `src/lib/anon-work-tracker.ts`
+- On sign-in/sign-up, the pending session data (messages + FS) is transferred to the newly created project
+- Authenticated users always redirect to `/{projectId}`; `src/app/page.tsx` auto-creates a project on first login
 
 ### Authentication
 
 - JWT in HTTP-only cookies; `src/lib/auth.ts` handles creation/verification
 - Anonymous users get in-memory sessions; only authenticated users get DB persistence
-- `src/app/middleware.ts` guards `/api/projects` and `/api/filesystem` routes
+- `src/middleware.ts` guards `/api/projects` and `/api/filesystem` routes
 
 ### Database
 
