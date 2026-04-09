@@ -1,0 +1,142 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e15]:
+          - generic [ref=e51]:
+            - generic [ref=e54]: Create a pricing card component
+            - img [ref=e57]
+          - generic [ref=e80]:
+            - img [ref=e83]
+            - generic [ref=e88]:
+              - generic [ref=e91]: Component written
+              - separator [ref=e92]
+              - paragraph [ref=e94]: "Now let me create the PricingCard component:"
+              - generic [ref=e97]: Component written
+              - separator [ref=e98]
+              - generic [ref=e99]:
+                - paragraph [ref=e100]: "Done! I've created a modern pricing card component with:"
+                - list [ref=e101]:
+                  - listitem [ref=e102]:
+                    - strong [ref=e103]: Three card variants
+                    - text: (Starter, Professional, Enterprise) with different highlight states
+                  - listitem [ref=e104]:
+                    - strong [ref=e105]: Glassmorphism design
+                    - text: with backdrop blur and gradient backgrounds
+                  - listitem [ref=e106]:
+                    - strong [ref=e107]: Highlighted "Most Popular" card
+                    - text: with emerald accent, ring border, and scale effect
+                  - listitem [ref=e108]:
+                    - strong [ref=e109]: Interactive button
+                    - text: with smooth hover animations
+                  - listitem [ref=e110]:
+                    - strong [ref=e111]: Feature list
+                    - text: with check icons from lucide-react
+                  - listitem [ref=e112]:
+                    - strong [ref=e113]: Dark theme
+                    - text: with slate and emerald color palette
+                  - listitem [ref=e114]:
+                    - strong [ref=e115]: Responsive grid
+                    - text: layout that stacks on mobile
+                - paragraph [ref=e116]: The Professional plan is highlighted as the most popular option and scales up slightly with enhanced shadows.
+        - generic [ref=e23]:
+          - textbox "Describe the React component you want to create..." [ref=e24]
+          - button [disabled] [ref=e25]:
+            - img [ref=e26]
+    - separator [ref=e29]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - tablist [ref=e34]:
+          - tab "Preview" [selected] [ref=e35]
+          - tab "Code" [ref=e36]
+        - generic [ref=e37]:
+          - button "Sign In" [ref=e38]
+          - button "Sign Up" [ref=e39]
+      - iframe [ref=e79]:
+        - generic [ref=f2e4]:
+          - generic [ref=f2e6]:
+            - generic [ref=f2e7]:
+              - heading "Starter" [level=3] [ref=f2e8]
+              - paragraph [ref=f2e9]: Perfect for getting started
+            - generic [ref=f2e11]:
+              - generic [ref=f2e12]: "29"
+              - generic [ref=f2e13]: /mo
+            - button "Get Started" [ref=f2e14] [cursor=pointer]
+            - generic [ref=f2e15]:
+              - paragraph [ref=f2e16]: What's included
+              - list [ref=f2e17]:
+                - listitem [ref=f2e18]:
+                  - img [ref=f2e19]
+                  - generic [ref=f2e21]: Up to 10 projects
+                - listitem [ref=f2e22]:
+                  - img [ref=f2e23]
+                  - generic [ref=f2e25]: 5GB storage
+                - listitem [ref=f2e26]:
+                  - img [ref=f2e27]
+                  - generic [ref=f2e29]: Basic analytics
+                - listitem [ref=f2e30]:
+                  - img [ref=f2e31]
+                  - generic [ref=f2e33]: Community support
+                - listitem [ref=f2e34]:
+                  - img [ref=f2e35]
+                  - generic [ref=f2e37]: Monthly billing
+          - generic [ref=f2e38]:
+            - generic [ref=f2e40]: MOST POPULAR
+            - generic [ref=f2e41]:
+              - generic [ref=f2e42]:
+                - heading "Professional" [level=3] [ref=f2e43]
+                - paragraph [ref=f2e44]: For growing teams
+              - generic [ref=f2e46]:
+                - generic [ref=f2e47]: "79"
+                - generic [ref=f2e48]: /mo
+              - button "Start Free Trial" [ref=f2e49] [cursor=pointer]
+              - generic [ref=f2e50]:
+                - paragraph [ref=f2e51]: What's included
+                - list [ref=f2e52]:
+                  - listitem [ref=f2e53]:
+                    - img [ref=f2e54]
+                    - generic [ref=f2e56]: Unlimited projects
+                  - listitem [ref=f2e57]:
+                    - img [ref=f2e58]
+                    - generic [ref=f2e60]: 500GB storage
+                  - listitem [ref=f2e61]:
+                    - img [ref=f2e62]
+                    - generic [ref=f2e64]: Advanced analytics
+                  - listitem [ref=f2e65]:
+                    - img [ref=f2e66]
+                    - generic [ref=f2e68]: Priority support
+                  - listitem [ref=f2e69]:
+                    - img [ref=f2e70]
+                    - generic [ref=f2e72]: Custom integrations
+                  - listitem [ref=f2e73]:
+                    - img [ref=f2e74]
+                    - generic [ref=f2e76]: Monthly or annual billing
+          - generic [ref=f2e78]:
+            - generic [ref=f2e79]:
+              - heading "Enterprise" [level=3] [ref=f2e80]
+              - paragraph [ref=f2e81]: For large organizations
+            - generic [ref=f2e84]: Custom
+            - button "Contact Sales" [ref=f2e85] [cursor=pointer]
+            - generic [ref=f2e86]:
+              - paragraph [ref=f2e87]: What's included
+              - list [ref=f2e88]:
+                - listitem [ref=f2e89]:
+                  - img [ref=f2e90]
+                  - generic [ref=f2e92]: Everything in Professional
+                - listitem [ref=f2e93]:
+                  - img [ref=f2e94]
+                  - generic [ref=f2e96]: Unlimited storage
+                - listitem [ref=f2e97]:
+                  - img [ref=f2e98]
+                  - generic [ref=f2e100]: Dedicated account manager
+                - listitem [ref=f2e101]:
+                  - img [ref=f2e102]
+                  - generic [ref=f2e104]: 24/7 phone support
+                - listitem [ref=f2e105]:
+                  - img [ref=f2e106]
+                  - generic [ref=f2e108]: Custom contracts
+                - listitem [ref=f2e109]:
+                  - img [ref=f2e110]
+                  - generic [ref=f2e112]: SLA guarantee
+  - alert [ref=e50]

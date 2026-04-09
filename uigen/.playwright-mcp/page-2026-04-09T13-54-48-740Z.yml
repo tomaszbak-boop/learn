@@ -1,0 +1,143 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e15]:
+          - generic [ref=e51]:
+            - generic [ref=e54]: Create a pricing card component
+            - img [ref=e57]
+          - generic [ref=e80]:
+            - img [ref=e83]
+            - generic [ref=e88]:
+              - generic [ref=e91]: Component written
+              - separator [ref=e92]
+              - paragraph [ref=e94]: "Now let me create the PricingCard component:"
+              - generic [ref=e97]: Component written
+              - separator [ref=e98]
+              - generic [ref=e99]:
+                - paragraph [ref=e100]: "Done. I've created a pricing card component with:"
+                - list [ref=e101]:
+                  - listitem [ref=e102]:
+                    - strong [ref=e103]: Three pricing tiers
+                    - text: (Starter, Professional, Enterprise) with distinct visual hierarchy
+                  - listitem [ref=e104]:
+                    - strong [ref=e105]: Highlighted "Most Popular" card
+                    - text: that scales up and has a warm accent ring
+                  - listitem [ref=e106]:
+                    - strong [ref=e107]: Custom color palette
+                    - text: using warm, earthy tones (
+                    - code [ref=e108]: "#C84B31"
+                    - text: rust accent,
+                    - code [ref=e109]: "#1A1208"
+                    - text: deep brown,
+                    - code [ref=e110]: "#F5F0E8"
+                    - text: cream)
+                  - listitem [ref=e111]:
+                    - strong [ref=e112]: Feature lists
+                    - text: with check icons from lucide-react
+                  - listitem [ref=e113]:
+                    - strong [ref=e114]: Smooth hover states
+                    - text: and transitions
+                  - listitem [ref=e115]:
+                    - strong [ref=e116]: Responsive grid layout
+                    - text: that stacks on mobile
+                - paragraph [ref=e117]: The design avoids the generic SaaS cliché by using a warm, editorial aesthetic instead of the typical dark-slate-with-jewel-tone pattern.
+        - generic [ref=e23]:
+          - textbox "Describe the React component you want to create..." [ref=e24]
+          - button [disabled] [ref=e25]:
+            - img [ref=e26]
+    - separator [ref=e29]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - tablist [ref=e34]:
+          - tab "Preview" [selected] [ref=e35]
+          - tab "Code" [ref=e36]
+        - generic [ref=e37]:
+          - button "Sign In" [ref=e38]
+          - button "Sign Up" [ref=e39]
+      - iframe [ref=e79]:
+        - generic [ref=f5e4]:
+          - generic [ref=f5e5]:
+            - heading "Simple, transparent pricing" [level=1] [ref=f5e6]
+            - paragraph [ref=f5e7]: Choose the plan that works for you
+          - generic [ref=f5e8]:
+            - generic [ref=f5e10]:
+              - generic [ref=f5e11]:
+                - heading "Starter" [level=3] [ref=f5e12]
+                - paragraph [ref=f5e13]: Perfect for getting started
+              - generic [ref=f5e15]:
+                - generic [ref=f5e16]: "29"
+                - generic [ref=f5e17]: /month
+              - button "Get Started" [ref=f5e18] [cursor=pointer]
+              - generic [ref=f5e19]:
+                - generic [ref=f5e20]:
+                  - img [ref=f5e21]
+                  - generic [ref=f5e23]: Up to 10 projects
+                - generic [ref=f5e24]:
+                  - img [ref=f5e25]
+                  - generic [ref=f5e27]: 5GB storage
+                - generic [ref=f5e28]:
+                  - img [ref=f5e29]
+                  - generic [ref=f5e31]: Basic analytics
+                - generic [ref=f5e32]:
+                  - img [ref=f5e33]
+                  - generic [ref=f5e35]: Community support
+                - generic [ref=f5e36]:
+                  - img [ref=f5e37]
+                  - generic [ref=f5e39]: Monthly billing
+            - generic [ref=f5e40]:
+              - generic [ref=f5e41]: Most Popular
+              - generic [ref=f5e42]:
+                - generic [ref=f5e43]:
+                  - heading "Professional" [level=3] [ref=f5e44]
+                  - paragraph [ref=f5e45]: For growing teams
+                - generic [ref=f5e47]:
+                  - generic [ref=f5e48]: "79"
+                  - generic [ref=f5e49]: /month
+                - button "Start Free Trial" [ref=f5e50] [cursor=pointer]
+                - generic [ref=f5e51]:
+                  - generic [ref=f5e52]:
+                    - img [ref=f5e53]
+                    - generic [ref=f5e55]: Unlimited projects
+                  - generic [ref=f5e56]:
+                    - img [ref=f5e57]
+                    - generic [ref=f5e59]: 500GB storage
+                  - generic [ref=f5e60]:
+                    - img [ref=f5e61]
+                    - generic [ref=f5e63]: Advanced analytics
+                  - generic [ref=f5e64]:
+                    - img [ref=f5e65]
+                    - generic [ref=f5e67]: Priority email support
+                  - generic [ref=f5e68]:
+                    - img [ref=f5e69]
+                    - generic [ref=f5e71]: Monthly or annual billing
+                  - generic [ref=f5e72]:
+                    - img [ref=f5e73]
+                    - generic [ref=f5e75]: Custom integrations
+            - generic [ref=f5e77]:
+              - generic [ref=f5e78]:
+                - heading "Enterprise" [level=3] [ref=f5e79]
+                - paragraph [ref=f5e80]: For large organizations
+              - generic [ref=f5e83]: Custom
+              - button "Contact Sales" [ref=f5e84] [cursor=pointer]
+              - generic [ref=f5e85]:
+                - generic [ref=f5e86]:
+                  - img [ref=f5e87]
+                  - generic [ref=f5e89]: Everything in Professional
+                - generic [ref=f5e90]:
+                  - img [ref=f5e91]
+                  - generic [ref=f5e93]: Unlimited storage
+                - generic [ref=f5e94]:
+                  - img [ref=f5e95]
+                  - generic [ref=f5e97]: Dedicated account manager
+                - generic [ref=f5e98]:
+                  - img [ref=f5e99]
+                  - generic [ref=f5e101]: 24/7 phone support
+                - generic [ref=f5e102]:
+                  - img [ref=f5e103]
+                  - generic [ref=f5e105]: Custom contracts
+                - generic [ref=f5e106]:
+                  - img [ref=f5e107]
+                  - generic [ref=f5e109]: SLA guarantee
+  - alert [ref=e50]

@@ -1,0 +1,143 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e15]:
+          - generic [ref=e51]:
+            - generic [ref=e54]: Create a pricing card component
+            - img [ref=e57]
+          - generic [ref=e73]:
+            - img [ref=e76]
+            - generic [ref=e81]:
+              - generic [ref=e84]: Component written
+              - separator [ref=e85]
+              - paragraph [ref=e87]: "Now I'll create the PricingCard component:"
+              - generic [ref=e90]: Component written
+              - separator [ref=e91]
+              - generic [ref=e92]:
+                - paragraph [ref=e93]: "Done. I've created a pricing card component with:"
+                - list [ref=e94]:
+                  - listitem [ref=e95]:
+                    - strong [ref=e96]: Three card variants
+                    - text: (Starter, Professional, Enterprise) with a highlighted "Most Popular" option
+                  - listitem [ref=e97]:
+                    - strong [ref=e98]: Custom color palette
+                    - text: ": warm off-white backgrounds (#F5F0E8), deep ink text (#1A1208), and a distinctive rust accent (#C84B31)"
+                  - listitem [ref=e99]:
+                    - strong [ref=e100]: Micro-interactions
+                    - text: ": hover states on buttons, scale effect on the highlighted card, smooth transitions"
+                  - listitem [ref=e101]:
+                    - strong [ref=e102]: Clean typography
+                    - text: ": large price display, clear feature lists with check icons from lucide-react"
+                  - listitem [ref=e103]:
+                    - strong [ref=e104]: Responsive grid
+                    - text: ": stacks on mobile, 3 columns on desktop with the middle card scaled up"
+                - paragraph [ref=e105]: The design avoids the generic SaaS cliché by using a warm, editorial color palette instead of the typical dark-slate-with-jewel-tone aesthetic.
+        - generic [ref=e23]:
+          - textbox "Describe the React component you want to create..." [ref=e24]
+          - button [disabled] [ref=e25]:
+            - img [ref=e26]
+    - separator [ref=e29]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - tablist [ref=e34]:
+          - tab "Preview" [ref=e35]
+          - tab "Code" [active] [selected] [ref=e36]
+        - generic [ref=e37]:
+          - button "Sign In" [ref=e38]
+          - button "Sign Up" [ref=e39]
+      - generic [ref=e107]:
+        - generic [ref=e113]:
+          - generic [ref=e114]:
+            - generic [ref=e115] [cursor=pointer]:
+              - img [ref=e116]
+              - img [ref=e118]
+              - generic [ref=e120]: components
+            - generic [ref=e123] [cursor=pointer]:
+              - img [ref=e124]
+              - generic [ref=e129]: PricingCard.jsx
+          - generic [ref=e131] [cursor=pointer]:
+            - img [ref=e132]
+            - generic [ref=e137]: App.jsx
+        - separator [ref=e138]
+        - code [ref=e143]:
+          - generic [ref=e144]:
+            - generic [ref=e146]:
+              - generic [ref=e149]: "1"
+              - generic [ref=e151]: "2"
+              - generic [ref=e152]:
+                - generic [ref=e153] [cursor=pointer]: 
+                - generic [ref=e154]: "3"
+              - generic [ref=e155]:
+                - generic [ref=e156] [cursor=pointer]: 
+                - generic [ref=e157]: "4"
+              - generic [ref=e158]:
+                - generic [ref=e159] [cursor=pointer]: 
+                - generic [ref=e160]: "5"
+              - generic [ref=e162]:
+                - generic [ref=e163] [cursor=pointer]: 
+                - generic [ref=e164]: "6"
+              - generic [ref=e165]:
+                - generic [ref=e166] [cursor=pointer]: 
+                - generic [ref=e167]: "7"
+              - generic [ref=e169]: "8"
+              - generic [ref=e172]: "9"
+              - generic [ref=e175]: "10"
+              - generic [ref=e177]: "11"
+              - generic [ref=e178]:
+                - generic [ref=e179] [cursor=pointer]: 
+                - generic [ref=e180]: "12"
+              - generic [ref=e182]:
+                - generic [ref=e183] [cursor=pointer]: 
+                - generic [ref=e184]: "13"
+              - generic [ref=e186]: "14"
+              - generic [ref=e188]: "15"
+              - generic [ref=e190]: "16"
+              - generic [ref=e191]:
+                - generic [ref=e192] [cursor=pointer]: 
+                - generic [ref=e193]: "17"
+              - generic [ref=e195]: "18"
+              - generic [ref=e197]: "19"
+              - generic [ref=e199]: "20"
+              - generic [ref=e201]: "21"
+              - generic [ref=e203]: "22"
+              - generic [ref=e205]: "23"
+              - generic [ref=e207]: "24"
+              - generic [ref=e209]: "25"
+              - generic [ref=e211]: "26"
+              - generic [ref=e213]: "27"
+            - generic [ref=e387]:
+              - generic [ref=e389]: import PricingCard from '@/components/PricingCard';
+              - generic [ref=e392]: "export default function App() {"
+              - generic [ref=e394]: return (
+              - generic [ref=e396]: <div className="min-h-screen bg-gradient-to-br from-
+              - generic [ref=e398]: "[#F5F0E8] via-[#FAFAF8] to-[#F0EBE3] p-8\">"
+              - generic [ref=e400]: <div className="max-w-6xl mx-auto">
+              - generic [ref=e402]: <div className="mb-16">
+              - generic [ref=e404]: <h1 className="text-5xl font-bold text-
+              - generic [ref=e406]: "[#1A1208] mb-3\">Simple, transparent pricing</h1>"
+              - generic [ref=e408]: <p className="text-lg text-[#6B5D52]">Choose
+              - generic [ref=e410]: the plan that works for you</p>
+              - generic [ref=e412]: </div>
+              - generic [ref=e415]: <div className="grid grid-cols-1 md:grid-cols-3
+              - generic [ref=e417]: gap-8">
+              - generic [ref=e419]: <PricingCard
+              - generic [ref=e421]: name="Starter"
+              - generic [ref=e423]: price="29"
+              - generic [ref=e425]: description="Perfect for getting started"
+              - generic [ref=e427]: "features={["
+              - generic [ref=e429]: "'Up to 10 projects',"
+              - generic [ref=e431]: "'5GB storage',"
+              - generic [ref=e433]: "'Basic analytics',"
+              - generic [ref=e435]: "'Community support',"
+              - generic [ref=e437]: "'Monthly billing'"
+              - generic [ref=e439]: "]}"
+              - generic [ref=e441]: cta="Get started"
+              - generic [ref=e443]: "highlighted={false}"
+              - generic [ref=e445]: />
+            - textbox "Editor content" [ref=e448]
+  - alert [ref=e50]
+  - generic [ref=e449]:
+    - alert
+    - alert

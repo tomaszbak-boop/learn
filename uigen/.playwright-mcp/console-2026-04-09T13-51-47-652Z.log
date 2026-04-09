@@ -1,0 +1,15 @@
+[     153ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/bfbf6_next_dist_compiled_react-dom_fd346968._.js:14537
+[    9049ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/bfbf6_next_dist_client_ba712383._.js:5949
+[    9225ms] [LOG] [Fast Refresh] done in 277ms @ http://localhost:3000/_next/static/chunks/bfbf6_next_dist_client_ba712383._.js:5809
+[   12537ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[   12706ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[   20290ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[   20292ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[   33240ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/bfbf6_next_dist_client_ba712383._.js:5949
+[   33267ms] [LOG] [Fast Refresh] done in 60ms @ http://localhost:3000/_next/static/chunks/bfbf6_next_dist_client_ba712383._.js:5809
+[   44689ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/bfbf6_next_dist_client_ba712383._.js:5949
+[   44713ms] [LOG] [Fast Refresh] done in 61ms @ http://localhost:3000/_next/static/chunks/bfbf6_next_dist_client_ba712383._.js:5809
+[   77518ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[   77522ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  144197ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/bfbf6_next_dist_client_ba712383._.js:5949
+[  144223ms] [LOG] [Fast Refresh] done in 61ms @ http://localhost:3000/_next/static/chunks/bfbf6_next_dist_client_ba712383._.js:5809

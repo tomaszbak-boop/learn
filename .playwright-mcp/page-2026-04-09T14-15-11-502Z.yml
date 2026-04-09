@@ -1,0 +1,157 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e15]:
+          - generic [ref=e51]:
+            - generic [ref=e54]: Create a pricing section for a SaaS product
+            - img [ref=e57]
+          - generic [ref=e75]:
+            - img [ref=e78]
+            - generic [ref=e83]:
+              - paragraph [ref=e85]: I'll create a distinctive pricing section that avoids the tired 3-column card pattern. Let me start with the App.jsx file.
+              - generic [ref=e88]: Component written
+              - separator [ref=e89]
+              - paragraph [ref=e91]: "Now let me create the CSS file for any additional styling:"
+              - generic [ref=e94]: Component written
+              - separator [ref=e95]
+              - generic [ref=e96]:
+                - paragraph [ref=e97]: "Done. I've created a pricing section with:"
+                - paragraph [ref=e98]:
+                  - strong [ref=e99]: "Design choices:"
+                - list [ref=e100]:
+                  - listitem [ref=e101]:
+                    - strong [ref=e102]: Light-mode first
+                    - text: "with a clean #fafafa background"
+                  - listitem [ref=e103]:
+                    - strong [ref=e104]: Highlight via dark card
+                    - text: (not the overused "Most Popular" badge) — the Professional plan stands out with a dark background and blue CTA
+                  - listitem [ref=e105]:
+                    - strong [ref=e106]: Asymmetric visual weight
+                    - text: — the highlighted plan scales slightly larger on hover
+                  - listitem [ref=e107]:
+                    - strong [ref=e108]: Precise color palette
+                    - text: "— #0a0a0a (near-black), #2563eb (electric blue), #e8e8e8 (light gray)"
+                  - listitem [ref=e109]:
+                    - strong [ref=e110]: Billing toggle
+                    - text: with a 20% savings callout for annual
+                  - listitem [ref=e111]:
+                    - strong [ref=e112]: Checkmark indicators
+                    - text: in circular badges instead of plain text
+                  - listitem [ref=e113]:
+                    - strong [ref=e114]: Smooth interactions
+                    - text: — hover states on cards and buttons
+                  - listitem [ref=e115]:
+                    - strong [ref=e116]: Responsive grid
+                    - text: that adapts to screen size
+                - paragraph [ref=e117]: The layout avoids the 3-column cliché by using visual hierarchy (dark card emphasis) and micro-interactions rather than scaling or badges.
+        - generic [ref=e23]:
+          - textbox "Describe the React component you want to create..." [ref=e24]
+          - button [disabled] [ref=e25]:
+            - img [ref=e26]
+    - separator [ref=e29]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - tablist [ref=e34]:
+          - tab "Preview" [selected] [ref=e35]
+          - tab "Code" [ref=e36]
+        - generic [ref=e37]:
+          - button "Sign In" [ref=e38]
+          - button "Sign Up" [ref=e39]
+      - iframe [ref=e118]:
+        - generic [ref=f6e4]:
+          - generic [ref=f6e5]:
+            - heading "Simple, transparent pricing" [level=1] [ref=f6e6]
+            - paragraph [ref=f6e7]: Choose the plan that fits your needs. Always flexible to scale.
+            - generic [ref=f6e8]:
+              - button "Monthly" [ref=f6e9] [cursor=pointer]
+              - button "AnnualSave 20%" [ref=f6e10] [cursor=pointer]
+          - generic [ref=f6e11]:
+            - generic [ref=f6e12]:
+              - generic [ref=f6e13]:
+                - heading "Starter" [level=3] [ref=f6e14]
+                - paragraph [ref=f6e15]: Perfect for individuals and small teams
+              - generic [ref=f6e17]:
+                - generic [ref=f6e18]: $29
+                - generic [ref=f6e19]: /month
+              - button "Start free trial" [ref=f6e20] [cursor=pointer]
+              - list [ref=f6e21]:
+                - listitem [ref=f6e22]:
+                  - generic [ref=f6e23]: ✓
+                  - text: Up to 5 projects
+                - listitem [ref=f6e24]:
+                  - generic [ref=f6e25]: ✓
+                  - text: 2GB storage
+                - listitem [ref=f6e26]:
+                  - generic [ref=f6e27]: ✓
+                  - text: Basic analytics
+                - listitem [ref=f6e28]:
+                  - generic [ref=f6e29]: ✓
+                  - text: Community support
+                - listitem [ref=f6e30]:
+                  - generic [ref=f6e31]: ✓
+                  - text: API access
+            - generic [ref=f6e32]:
+              - generic [ref=f6e33]:
+                - heading "Professional" [level=3] [ref=f6e34]
+                - paragraph [ref=f6e35]: For growing teams and businesses
+              - generic [ref=f6e37]:
+                - generic [ref=f6e38]: $79
+                - generic [ref=f6e39]: /month
+              - button "Start free trial" [ref=f6e40] [cursor=pointer]
+              - list [ref=f6e41]:
+                - listitem [ref=f6e42]:
+                  - generic [ref=f6e43]: ✓
+                  - text: Unlimited projects
+                - listitem [ref=f6e44]:
+                  - generic [ref=f6e45]: ✓
+                  - text: 100GB storage
+                - listitem [ref=f6e46]:
+                  - generic [ref=f6e47]: ✓
+                  - text: Advanced analytics
+                - listitem [ref=f6e48]:
+                  - generic [ref=f6e49]: ✓
+                  - text: Priority email support
+                - listitem [ref=f6e50]:
+                  - generic [ref=f6e51]: ✓
+                  - text: Custom integrations
+                - listitem [ref=f6e52]:
+                  - generic [ref=f6e53]: ✓
+                  - text: Team collaboration
+                - listitem [ref=f6e54]:
+                  - generic [ref=f6e55]: ✓
+                  - text: Advanced security
+            - generic [ref=f6e56]:
+              - generic [ref=f6e57]:
+                - heading "Enterprise" [level=3] [ref=f6e58]
+                - paragraph [ref=f6e59]: For large-scale operations
+              - generic [ref=f6e62]: Custom
+              - button "Contact sales" [ref=f6e63] [cursor=pointer]
+              - list [ref=f6e64]:
+                - listitem [ref=f6e65]:
+                  - generic [ref=f6e66]: ✓
+                  - text: Everything in Professional
+                - listitem [ref=f6e67]:
+                  - generic [ref=f6e68]: ✓
+                  - text: Unlimited storage
+                - listitem [ref=f6e69]:
+                  - generic [ref=f6e70]: ✓
+                  - text: Custom analytics
+                - listitem [ref=f6e71]:
+                  - generic [ref=f6e72]: ✓
+                  - text: 24/7 phone & email support
+                - listitem [ref=f6e73]:
+                  - generic [ref=f6e74]: ✓
+                  - text: Dedicated account manager
+                - listitem [ref=f6e75]:
+                  - generic [ref=f6e76]: ✓
+                  - text: Custom contracts
+                - listitem [ref=f6e77]:
+                  - generic [ref=f6e78]: ✓
+                  - text: SLA guarantee
+          - paragraph [ref=f6e80]:
+            - text: All plans include a 14-day free trial. No credit card required.
+            - link "Compare all features" [ref=f6e81] [cursor=pointer]:
+              - /url: "#"
+  - alert [ref=e50]
