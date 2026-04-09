@@ -399,11 +399,45 @@ export class VirtualFileSystem {
 
     // Handle view_range if provided
     if (viewRange && viewRange.length === 2) {
-      const lines = content.split("\n");
       const [start, end] = viewRange;
       const startLine = Math.max(1, start);
-      const endLine = end === -1 ? lines.length : Math.min(lines.length, end);
 
+      if (end !== -1) {
+        // Bounded range: scan only to endLine with indexOf — avoids splitting
+        // the entire file when we only need a small slice.
+        const endLine = end;
+        const parts: string[] = [];
+        let pos = 0;
+        let lineNum = 1;
+
+        // Advance to startLine
+        while (lineNum < startLine) {
+          const nl = content.indexOf("\n", pos);
+          if (nl === -1) return "";
+          pos = nl + 1;
+          lineNum++;
+        }
+
+        // Collect lines [startLine, endLine]
+        while (lineNum <= endLine) {
+          const nl = content.indexOf("\n", pos);
+          if (nl === -1) {
+            if (pos <= content.length) {
+              parts.push(`${lineNum}\t${content.slice(pos)}`);
+            }
+            break;
+          }
+          parts.push(`${lineNum}\t${content.slice(pos, nl)}`);
+          pos = nl + 1;
+          lineNum++;
+        }
+
+        return parts.join("\n");
+      }
+
+      // end === -1: need total line count, fall back to full split
+      const lines = content.split("\n");
+      const endLine = lines.length;
       const viewedLines = lines.slice(startLine - 1, endLine);
       return viewedLines
         .map((line, index) => `${startLine + index}\t${line}`)
@@ -452,20 +486,20 @@ export class VirtualFileSystem {
 
     const content = this.readFile(path) || "";
 
-    // Check if old_str exists in the file
-    if (!oldStr || !content.includes(oldStr)) {
+    if (!oldStr) {
       return `Error: String not found in file: "${oldStr}"`;
     }
 
-    // Count occurrences
-    const occurrences = (
-      content.match(
-        new RegExp(oldStr.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "g")
-      ) || []
-    ).length;
+    // Single split gives us both the occurrence count (parts.length - 1) and
+    // the replacement result in one O(n) pass — no regex needed.
+    const parts = content.split(oldStr);
+    const occurrences = parts.length - 1;
 
-    // Replace all occurrences
-    const updatedContent = content.split(oldStr).join(newStr || "");
+    if (occurrences === 0) {
+      return `Error: String not found in file: "${oldStr}"`;
+    }
+
+    const updatedContent = parts.join(newStr || "");
     this.updateFile(path, updatedContent);
 
     return `Replaced ${occurrences} occurrence(s) of the string in ${path}`;
