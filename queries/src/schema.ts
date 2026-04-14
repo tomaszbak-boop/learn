@@ -1,7 +1,8 @@
 import { Database } from "sqlite";
 
-export async function createSchema(db: Database) {
+export async function createSchema(db: Database, verbose: boolean = false) {
   // 1. Customers table
+  if (verbose) console.log("Creating customers table...");
   await db.exec(`
     CREATE TABLE IF NOT EXISTS customers (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -17,6 +18,7 @@ export async function createSchema(db: Database) {
     `);
 
   // 2. Addresses table
+  if (verbose) console.log("Creating addresses table...");
   await db.exec(`
     CREATE TABLE IF NOT EXISTS addresses (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -35,6 +37,7 @@ export async function createSchema(db: Database) {
     `);
 
   // 3. Categories table
+  if (verbose) console.log("Creating categories table...");
   await db.exec(`
     CREATE TABLE IF NOT EXISTS categories (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -48,6 +51,7 @@ export async function createSchema(db: Database) {
     `);
 
   // 4. Products table
+  if (verbose) console.log("Creating products table...");
   await db.exec(`
     CREATE TABLE IF NOT EXISTS products (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -66,6 +70,7 @@ export async function createSchema(db: Database) {
     `);
 
   // 5. Inventory table
+  if (verbose) console.log("Creating inventory table...");
   await db.exec(`
     CREATE TABLE IF NOT EXISTS inventory (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -82,6 +87,7 @@ export async function createSchema(db: Database) {
     `);
 
   // 6. Warehouses table
+  if (verbose) console.log("Creating warehouses table...");
   await db.exec(`
     CREATE TABLE IF NOT EXISTS warehouses (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -95,6 +101,7 @@ export async function createSchema(db: Database) {
     `);
 
   // 7. Orders table
+  if (verbose) console.log("Creating orders table...");
   await db.exec(`
     CREATE TABLE IF NOT EXISTS orders (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -117,6 +124,7 @@ export async function createSchema(db: Database) {
     `);
 
   // 8. Order items table
+  if (verbose) console.log("Creating order_items table...");
   await db.exec(`
     CREATE TABLE IF NOT EXISTS order_items (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -133,6 +141,7 @@ export async function createSchema(db: Database) {
     `);
 
   // 9. Reviews table
+  if (verbose) console.log("Creating reviews table...");
   await db.exec(`
     CREATE TABLE IF NOT EXISTS reviews (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -153,6 +162,7 @@ export async function createSchema(db: Database) {
     `);
 
   // 10. Customer segments table
+  if (verbose) console.log("Creating customer_segments table...");
   await db.exec(`
     CREATE TABLE IF NOT EXISTS customer_segments (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -166,6 +176,7 @@ export async function createSchema(db: Database) {
     `);
 
   // 11. Promotions table
+  if (verbose) console.log("Creating promotions table...");
   await db.exec(`
     CREATE TABLE IF NOT EXISTS promotions (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -183,6 +194,7 @@ export async function createSchema(db: Database) {
     `);
 
   // 12. Customer activity log table
+  if (verbose) console.log("Creating customer_activity_log table...");
   await db.exec(`
     CREATE TABLE IF NOT EXISTS customer_activity_log (
         id INTEGER PRIMARY KEY AUTOINCREMENT,

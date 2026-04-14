@@ -9,7 +9,10 @@ async function main() {
   const readPath =
     toolArgs.tool_input?.file_path || toolArgs.tool_input?.path || "";
 
-  // TODO: ensure Claude isn't trying to read the .env file
+  if (readPath.includes(".env")) {
+    console.error("Error: Access to .env file is not allowed.");
+    process.exit(2);
+  }
 }
 
 main();
